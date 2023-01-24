@@ -17,6 +17,9 @@ const doubleEach = arr => {
             let num = element * 2 // multiples the element and stores the number in a new var
             newArray.push(num) // pushes it into an array so the values can be stored
         }
+        else {
+            newArray.push(element)
+        }
     });
     return newArray
 }
