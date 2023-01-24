@@ -13,9 +13,9 @@ const array = [
 const doubleEach = arr => {
     newArray = []
     arr.forEach(element => {
-        if (element % 2 === 0) {
-            let num = element * 2
-            newArray.push(num)
+        if (element % 2 === 0) { // finds if the number is even by looking for remainder
+            let num = element * 2 // multiples the element and stores the number in a new var
+            newArray.push(num) // pushes it into an array so the values can be stored
         }
     });
     return newArray
